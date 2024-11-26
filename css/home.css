@@ -1,0 +1,213 @@
+.img_cachorro_dormindo{
+    background-image:  url('../imagens/cachorro-dormindo.png');
+    background-blend-mode: normal; /* Combina o degradê com a imagem */
+    background-size: cover; /* Garante que a imagem cubra toda a div */
+    background-position: center; /* Centraliza a imagem */
+
+    width: 100%; 
+    height: 500px; 
+}
+
+
+
+
+.nav-link , .navbar-brand{
+    color: #121212 !important;
+    transition: all 0.3s ease; 
+}
+
+.nav-link:hover{
+    transform: scale(1.30);
+}
+
+body{
+
+    background-color: #e0e0e0;
+}
+
+.txt_img_goldenpaws{
+    color: #f8f8f8;
+    font-size: 40px;
+    margin-left: 50px;
+    opacity: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.div_info {
+    
+    position: absolute;
+    top: 515px;           /* Define a posição 25px acima do contêiner pai */
+    left: 50%;            /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta a posição para centralizar */
+    z-index: 1;           /* Define o z-index para o elemento */
+    width: 100%;           /* Define a largura da div */
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+
+.div_info_child_black, .div_info_child_brigth{
+    /*background-color: #dfc551;*/
+    margin: 0 auto;
+    padding: 85px;
+    width: 100%;
+}
+
+.h1_info_child_black, .h1_info_child_brigth{
+    text-align: center;
+font-size: 40px;
+color: #0e0e0e;
+}
+.p_info_child_black,.p_info_child_brigth {
+    text-align: left;
+    font-size: 20px;
+    color: #e0e0e0;
+}
+
+/*BOTÕES*/
+
+.btn-contratar-caminhada, .btn-agendar-estadia{
+    font-size: 25px;
+    border-radius: 40px;
+    background-color: #e0e0e0;
+    border: 0px;
+    padding: 15px;
+    margin: 20px;
+    color: #121212;
+    transition: all 0.3s ease; 
+
+}
+.btn-contratar-caminhada:hover, .btn-agendar-estadia:hover{
+    background-color: #be2633;
+    color: #f8f8f8;
+    cursor: pointer;
+    transform: scale(1.10);
+    border: 30px;
+}
+
+
+.btn-quero-trabalho{
+    font-size: 20px;
+    border-radius: 30px;
+    border: 0px;
+    padding: 15px;
+    margin: 20px;
+    color: #121212;
+    transition: all 0.3s ease;
+    background-color: #ffd498;
+}
+.btn-quero-trabalho:hover {
+    background-color: #be2633;
+    color: #f8f8f8;
+    cursor: pointer;
+    transform: scale(1.10);
+}
+
+/*BRIGTH*/
+.div_info_child_brigth {
+
+    background-color: #f8f8f8;
+}
+
+.h1_info_child_brigth {
+    color: #121212;
+}
+
+.p_info_child_brigth {
+    color: #121212;
+}
+
+/*BLACK*/
+.div_info_child_black {
+    background-color: #e0e0e0;
+}
+
+.h1_info_child_black {
+    color: #121212;
+
+}
+.p_info_child_black {
+    color: #121212;
+}
+
+
+
+/*INFORMAÇÕES DE CONTATO*/
+.contato-div {
+    width: 100%; /* Ocupa toda a largura da página */
+    height: 120px; /* Altura de 250px */
+    background-color: #121212; /* Cor de fundo */
+    color: #f8f8f8; /* Cor do texto */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    gap: 10px; /* Espaçamento entre os itens */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contato-item {
+    display: flex;
+    align-items: center;
+    flex: 1 1 200px; /* Permite que os itens se ajustem e quebrem quando necessário */
+}
+
+.icone {
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+    color: #ffec98; /* Cor do ícone */
+    padding: 5px;
+    border-radius: 50%; /* Torna o ícone arredondado */
+    font-size: 18px; /* Ajusta o tamanho do ícone */
+}
+
+.info {
+    font-size: 16px; /* Tamanho do texto */
+}
+
+.img_foto_perfil{
+    transition: all 0.3s ease; 
+}
+.img_foto_perfil:hover{
+    transform: scale(1.4);
+}
+
+.card-body {
+    position: relative; /* Define um contexto de posicionamento */
+    height: 100%; /* Garante que a altura seja consistente */
+    padding-bottom: 50px; /* Espaço para o botão */
+}
+
+.btn-contratar-bottom {
+    position: absolute; /* Fixa o botão dentro da div */
+    bottom: 15px; /* Distância do rodapé da div */
+    left: 15px; /* Opcional: ajusta para a esquerda */
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #ffd498;
+    color: #121212;
+    border: 0px;
+    border-radius: 8px; /* Menos arredondado */
+    transition: all 0.3s ease;
+}
+
+.btn-contratar-bottom:hover {
+    background-color: #be2633;
+    color: #f8f8f8;
+    cursor: pointer;
+}
+.contact-section {
+    background-color: #121212;
+    color: #f8f8f8;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-item i {
+    margin-right: 10px;
+    color: #ffec98;
+}
